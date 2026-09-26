@@ -1,4 +1,4 @@
-# knowledge-graph-primitives
+# knowledge-graph-primitives (llm-entity-extraction)
 
 An autonomous knowledge graph extraction pipeline that ingests raw, unstructured text and builds a structured graph database using **Gemini 2.5 Flash**, **LangChain**, and **Neo4j**.
 
