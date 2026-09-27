@@ -20,6 +20,6 @@ class Edge(BaseModel):
     target_node_id: str = Field(description="The id of the target node")
     relationship_type: RelationshipType = Field(description="The type of relationship between the source and target nodes")
 
-class KnowledgGraph(BaseModel):
+class KnowledgeGraph(BaseModel):
     nodes: list[Node] = Field(description="All entities extracted from the text")
     edges: list[Edge] = Field(description="All relationships between entities")

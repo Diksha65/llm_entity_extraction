@@ -1,7 +1,7 @@
 from neo4j import GraphDatabase
-from .models import KnowledgGraph
+from .models import KnowledgeGraph
 
-def push_graph_to_neo4j(graph_data: KnowledgGraph, driver):
+def push_graph_to_neo4j(graph_data: KnowledgeGraph, driver):
     with driver.session() as session:
         for node in graph_data.nodes:
             node_query= f"""
